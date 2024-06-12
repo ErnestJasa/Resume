@@ -241,7 +241,7 @@
               <p>Technologies I'm familiar with</p>
             </div>
           </div>
-          <div class="flex justify-center mt-10">
+          <article class="flex justify-center mt-10">
             <div
               class="xl:w-[45%] md:w-[75%] w-full mx-4 grid grid-cols-2 md:grid-cols-3 gap-4 text-center py-8"
             >
@@ -298,13 +298,257 @@
                 <p class="my-4">CSS</p>
               </div>
             </div>
+          </article>
+        </section>
+
+        <!-- Portfolio -->
+        <div id="portfolio"></div>
+        <section class="h-[1200px] lg:h-full mt-32">
+          <div class="flex justify-center">
+            <div>
+              <h2 class="text-center font-bold text-4xl p-1">Portfolio</h2>
+              <p>Some websites I've made</p>
+            </div>
           </div>
+          <article class="flex justify-center mt-10">
+            <div
+              class="lg:w-[90%] w-full mx-4 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-3 py-8 md:h-96"
+            >
+              <!-- CV -->
+              <div class="rounded-xl relative h-full">
+                <div
+                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full"
+                >
+                  <h2
+                    class="text-xl xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1 absolute top-0 left-[6%] md:left-[35%] lg:left-[6%] xl:left-[25%]"
+                  >
+                    Current site You're on
+                  </h2>
+                  <img
+                    class="rounded-xl object-cover object-[30%_50%] sm:object-[0_20%] md:object-[55%_70%] lg:object-center h-full w-full"
+                    src="img/CV.png"
+                    alt="CV site image"
+                  />
+                  <div class="absolute top-8 right-2 overflow-hidden">
+                    <div class="slide-in">
+                      <a
+                        class="flex gap-1"
+                        href="https://github.com/ErnestJasa/Resume"
+                        target="_blank"
+                      >
+                        <span
+                          class="bg-white/40 backdrop-blur rounded-full ml-1"
+                        >
+                          <img class="w-14" src="img/github.png" alt="" />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-[85%] text-center"
+                          >Github</span
+                        >
+                      </a>
+                    </div>
+                    <div class="slide-in mt-3">
+                      <button class="info-btn flex gap-1">
+                        <span class="bg-white/40 backdrop-blur rounded-xl px-1">
+                          <img class="w-16" src="img/info.png" alt="" />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-full text-center"
+                          >Info</span
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-full absolute hidden-text top-2 left-2">
+                  <p class="text-lg font-semibold md:text-xl md:font-normal">
+                    Simple resume HTML and TailwindCSS site. With minimal JS. I
+                    didn't want to use any framework for this page and keep it
+                    as simple as possible.
+                  </p>
+                </div>
+              </div>
+
+              <!-- CV 3D -->
+
+              <div class="rounded-xl relative h-full">
+                <div
+                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full"
+                >
+                  <h2
+                    class="text-xl xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1 absolute top-0 left-[6%] md:left-[35%] lg:left-[6%] xl:left-[25%]"
+                  >
+                    This site's 3D version
+                  </h2>
+                  <img
+                    class="rounded-xl object-cover object-[30%_50%] sm:object-[0_20%] md:object-[55%_70%] lg:object-center h-full w-full"
+                    src="img/CV_3D.png"
+                    alt="CV site image"
+                  />
+                  <div class="absolute top-8 right-2 overflow-hidden">
+                    <div class="slide-in">
+                      <a
+                        class="flex gap-1"
+                        href="https://github.com/ErnestJasa/Resume3D"
+                        target="_blank"
+                      >
+                        <span
+                          class="bg-white/40 backdrop-blur rounded-full ml-1"
+                        >
+                          <img
+                            class="w-14"
+                            src="img/github.png"
+                            alt="github icon"
+                          />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-[85%] text-center"
+                          >Github</span
+                        >
+                      </a>
+                    </div>
+                    <div class="slide-in mt-3">
+                      <a
+                        class="flex gap-1"
+                        href="https://ernestjasa.github.io/Resume3D/"
+                        target="_blank"
+                      >
+                        <span class="bg-white/40 backdrop-blur rounded-xl px-1">
+                          <img
+                            class="w-16"
+                            src="img/internet.png"
+                            alt="link icon"
+                          />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-full text-center"
+                          >Link</span
+                        >
+                      </a>
+                    </div>
+                    <div class="slide-in mt-3">
+                      <button class="info-btn flex gap-1">
+                        <span class="bg-white/40 backdrop-blur rounded-xl px-1">
+                          <img class="w-16" src="img/info.png" alt="" />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-full text-center"
+                          >Info</span
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-full absolute hidden-text top-2 left-2">
+                  <p class="text-lg font-semibold md:text-xl md:font-normal">
+                    I wanted to check out the Three.js library so tried to
+                    recreate this resume page in 3D. I used React.js and React
+                    Three Fiber libraries for it. To create the models I used
+                    Blender and got some help with them from my cousin. He
+                    mostly does video editing, here's his TikTok -
+                    <a
+                      class="underline"
+                      href="https://www.tiktok.com/@dirbtiniai"
+                      >@dirbtiniai</a
+                    >.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Movie search -->
+
+              <div class="rounded-xl relative h-full">
+                <div
+                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full"
+                >
+                  <h2
+                    class="text-xl xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1 absolute top-0 left-[10%] md:left-[35%] lg:left-[10%] xl:left-[25%]"
+                  >
+                    Movie search website
+                  </h2>
+                  <img
+                    class="rounded-xl object-cover object-[30%_50%] sm:object-[0_20%] md:object-[55%_70%] lg:object-center h-full w-full"
+                    src="img/movie_search.png"
+                    alt="CV site image"
+                  />
+                  <div class="absolute top-8 right-2 overflow-hidden">
+                    <div class="slide-in">
+                      <a
+                        class="flex gap-1"
+                        href="https://github.com/ErnestJasa/Resume3D"
+                        target="_blank"
+                      >
+                        <span
+                          class="bg-white/40 backdrop-blur rounded-full ml-1"
+                        >
+                          <img
+                            class="w-14"
+                            src="img/github.png"
+                            alt="github icon"
+                          />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-[85%] text-center"
+                          >Github</span
+                        >
+                      </a>
+                    </div>
+                    <div class="slide-in mt-3">
+                      <a
+                        class="flex gap-1"
+                        href="https://ernestjasa.github.io/Resume3D/"
+                        target="_blank"
+                      >
+                        <span class="bg-white/40 backdrop-blur rounded-xl px-1">
+                          <img
+                            class="w-16"
+                            src="img/internet.png"
+                            alt="link icon"
+                          />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-full text-center"
+                          >Link</span
+                        >
+                      </a>
+                    </div>
+                    <div class="slide-in mt-3">
+                      <button class="info-btn flex gap-1">
+                        <span class="bg-white/40 backdrop-blur rounded-xl px-1">
+                          <img class="w-16" src="img/info.png" alt="" />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-full text-center"
+                          >Info</span
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-full absolute hidden-text top-2 left-2">
+                  <p class="text-lg font-semibold md:text-xl md:font-normal">
+                    Wanted to further practice React.js so created a simple
+                    movie search website, where you can login using Google, save
+                    the movies you liked (you don't need to be logged in to do
+                    this), view their information such as plot synopsis, rating
+                    scores, release date etc. For the front-end I used React.js
+                    with TailwindCSS and for the back-end got to practice using
+                    Express.js with SQLite database, to save the logged in
+                    users' favorited movies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
         </section>
 
         <!-- Contacts -->
         <div id="contacts"></div>
-        <section>
-          <div class="flex justify-center mt-32">
+        <section class="mt-56 md:mt-40">
+          <div class="flex justify-center">
             <h2 class="text-center font-bold text-4xl p-1">Contacts</h2>
           </div>
           <div class="sm:max-w-[450px] sm:mx-auto mt-16 text-xl">
@@ -329,7 +573,6 @@
               <a
                 class="underline"
                 href="https://www.linkedin.com/in/ernestas-jasaitis/"
-                target="_blank"
                 >Ernestas Jasaitis</a
               >
             </div>
@@ -341,5 +584,6 @@
         </footer>
       </main>
     </div>
+    <script src="js/index.js"></script>
   </body>
 </html>
