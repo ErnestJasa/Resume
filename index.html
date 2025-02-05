@@ -4,12 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/style.css" rel="stylesheet" />
-    <script
-      defer
-      async
-      data-host="ernestjasa.github.io"
-      src="https://liteanalytics.com/lite.js"
-    ></script>
+    <script defer async data-host="ernestjasa.github.io"></script>
+    <!-- src="https://liteanalytics.com/lite.js" -->
     <title>CV Ernestas Jasaitis</title>
   </head>
   <body>
@@ -51,11 +47,11 @@
             Hi, I'm<span class="mt-2 block">Ernestas</span>
           </h1>
           <p class="leading-loose text-lg font-mono tracking-wide mt-4">
-            I'm looking to start my career as a developer. I've
-            finished studying .Net at Akademija.it and am looking for
-            oportunities in either front or back-end. Also
-            willing to learn new technologies given an oportunity. I'm hard working
-            and always striving to improve myself and continue to learn constantly.
+            I'm looking to start my career as a developer. I've finished
+            studying .Net at Akademija.it and am looking for oportunities in
+            either front or back-end. Also willing to learn new technologies
+            given an oportunity. I'm hard working and always striving to improve
+            myself and continue to learn constantly.
           </p>
         </article>
         <div class="hidden lg:flex shrink-0 md:w-[40%]">
@@ -311,7 +307,7 @@
 
         <!-- Portfolio -->
         <div id="portfolio"></div>
-        <section class="h-[1200px] lg:h-full mt-32">
+        <section class="mt-32">
           <div class="flex justify-center">
             <div>
               <h2 class="text-center font-bold text-4xl p-1">Portfolio</h2>
@@ -320,24 +316,21 @@
           </div>
           <article class="flex justify-center mt-10">
             <div
-              class="lg:w-[90%] w-full mx-4 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-3 py-8 md:h-96"
+              class="lg:mx-24 w-full mx-4 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-3 py-8"
             >
               <!-- CV -->
-              <div class="rounded-xl relative h-full">
+              <div class="rounded-xl h-full relative md:h-75">
                 <div
-                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full"
+                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full bg-[url(/img/CV_site.jpg)] bg-cover bg-[30%_50%] sm:bg-[0_20%] md:bg-[55%_70%] lg:bg-center"
                 >
-                  <h2
-                    class="text-xl xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1 absolute top-0 left-[6%] md:left-[35%] lg:left-[6%] xl:left-[25%]"
-                  >
-                    Current site You're on
-                  </h2>
-                  <img
-                    class="rounded-xl object-cover object-[30%_50%] sm:object-[0_20%] md:object-[55%_70%] lg:object-center h-full w-full"
-                    src="img/CV.jpg"
-                    alt="CV site image"
-                  />
-                  <div class="absolute top-8 right-2 overflow-hidden">
+                  <div class="flex justify-center">
+                    <h2
+                      class="xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1"
+                    >
+                      Current site You're on
+                    </h2>
+                  </div>
+                  <div class="overflow-hidden float-right mt-1">
                     <div class="slide-in">
                       <a
                         class="flex gap-1"
@@ -356,7 +349,7 @@
                       </a>
                     </div>
                     <div class="slide-in mt-3">
-                      <button class="info-btn flex gap-1">
+                      <button class="info-btn flex gap-1 cursor-pointer">
                         <span class="bg-white/40 backdrop-blur rounded-xl px-1">
                           <img class="w-16" src="img/info.png" alt="" />
                         </span>
@@ -368,7 +361,6 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="w-full absolute hidden-text top-2 left-2">
                   <p class="text-lg font-semibold md:text-xl md:font-normal">
                     Simple resume HTML and TailwindCSS site. With minimal JS. I
@@ -380,21 +372,18 @@
 
               <!-- CV 3D -->
 
-              <div class="rounded-xl relative h-full">
+              <div class="rounded-xl h-full relative md:h-75">
                 <div
-                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full"
+                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full bg-[url(/img/CV_3D_site.jpg)] bg-cover bg-[30%_50%] sm:bg-[0_20%] md:bg-[55%_70%] lg:bg-center"
                 >
-                  <h2
-                    class="text-xl xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1 absolute top-0 left-[6%] md:left-[35%] lg:left-[6%] xl:left-[25%]"
-                  >
-                    This site's 3D version
-                  </h2>
-                  <img
-                    class="rounded-xl object-cover object-[30%_50%] sm:object-[0_20%] md:object-[55%_70%] lg:object-center h-full w-full"
-                    src="img/CV_3D.jpg"
-                    alt="CV site image"
-                  />
-                  <div class="absolute top-8 right-2 overflow-hidden">
+                  <div class="flex justify-center">
+                    <h2
+                      class="xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1"
+                    >
+                      This site's 3D version
+                    </h2>
+                  </div>
+                  <div class="overflow-hidden float-right mt-1">
                     <div class="slide-in">
                       <a
                         class="flex gap-1"
@@ -436,7 +425,7 @@
                       </a>
                     </div>
                     <div class="slide-in mt-3">
-                      <button class="info-btn flex gap-1">
+                      <button class="info-btn flex gap-1 cursor-pointer">
                         <span class="bg-white/40 backdrop-blur rounded-xl px-1">
                           <img class="w-16" src="img/info.png" alt="" />
                         </span>
@@ -448,7 +437,6 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="w-full absolute hidden-text top-2 left-2">
                   <p class="text-lg font-semibold md:text-xl md:font-normal">
                     I wanted to check out the Three.js library so tried to
@@ -468,21 +456,18 @@
 
               <!-- Movie search -->
 
-              <div class="rounded-xl relative h-full">
+              <div class="rounded-xl h-full relative md:h-75">
                 <div
-                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full"
+                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full bg-[url(/img/movie_search_site.jpg)] bg-cover bg-[30%_50%] sm:bg-[0_20%] md:bg-[55%_70%] lg:bg-center"
                 >
-                  <h2
-                    class="text-xl xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1 absolute top-0 left-[10%] md:left-[35%] lg:left-[10%] xl:left-[25%]"
-                  >
-                    Movie search website
-                  </h2>
-                  <img
-                    class="rounded-xl object-cover object-[30%_50%] sm:object-[0_20%] md:object-[55%_70%] lg:object-center h-full w-full"
-                    src="img/movie_search.jpg"
-                    alt="CV site image"
-                  />
-                  <div class="absolute top-8 right-2 overflow-hidden">
+                  <div class="flex justify-center">
+                    <h2
+                      class="xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1"
+                    >
+                      Movie search app
+                    </h2>
+                  </div>
+                  <div class="overflow-hidden float-right mt-1">
                     <div class="slide-in">
                       <a
                         class="flex gap-1"
@@ -524,7 +509,7 @@
                       </a>
                     </div>
                     <div class="slide-in mt-3">
-                      <button class="info-btn flex gap-1">
+                      <button class="info-btn flex gap-1 cursor-pointer">
                         <span class="bg-white/40 backdrop-blur rounded-xl px-1">
                           <img class="w-16" src="img/info.png" alt="" />
                         </span>
@@ -547,6 +532,90 @@
                     with TailwindCSS and for the back-end got to practice using
                     Express.js with SQLite database, to save the logged in
                     users' favorited movies.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Youtubers -->
+
+              <div class="rounded-xl h-full relative md:h-75">
+                <div
+                  class="portfolio-card shadow-lg shadow-gray-500 rounded-xl h-[350px] md:h-full bg-[url(/img/youtubers_demo_site.png)] bg-cover bg-[30%_50%] sm:bg-[0_20%] md:bg-[55%_70%] lg:bg-center"
+                >
+                  <div class="flex justify-center">
+                    <h2
+                      class="xl:text-2xl rounded-b-full bg-white/40 backdrop-blur px-3 pb-1"
+                    >
+                      Lithuanian Youtubers demo app
+                    </h2>
+                  </div>
+                  <div class="overflow-hidden float-right mt-1">
+                    <div class="slide-in">
+                      <a
+                        class="flex gap-1"
+                        href="https://github.com/ErnestJasa/youtuberiaiLT-Go-Vue_demo/"
+                        target="_blank"
+                      >
+                        <span
+                          class="bg-white/40 backdrop-blur rounded-full ml-1"
+                        >
+                          <img
+                            class="w-14"
+                            src="img/github.png"
+                            alt="github icon"
+                          />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-[85%] text-center"
+                          >Github</span
+                        >
+                      </a>
+                    </div>
+                    <div class="slide-in mt-3">
+                      <a
+                        class="flex gap-1"
+                        href="https://ernestjasa.github.io/youtuberiaiLT-Go-Vue_demo/"
+                        target="_blank"
+                      >
+                        <span class="bg-white/40 backdrop-blur rounded-xl px-1">
+                          <img
+                            class="w-16"
+                            src="img/internet.png"
+                            alt="link icon"
+                          />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-full text-center"
+                          >Link</span
+                        >
+                      </a>
+                    </div>
+                    <div class="slide-in mt-3">
+                      <button class="info-btn flex gap-1 cursor-pointer">
+                        <span class="bg-white/40 backdrop-blur rounded-xl px-1">
+                          <img class="w-16" src="img/info.png" alt="" />
+                        </span>
+                        <span
+                          class="m-auto text-xl bg-white/40 backdrop-blur rounded-full w-full text-center"
+                          >Info</span
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="w-full absolute hidden-text top-2 left-2">
+                  <p class="text-lg font-semibold md:text-xl md:font-normal">
+                    With this app I wanted to try out Golang and Vue.js
+                    framework. So decided to write a demo version of a full
+                    application I have previously written using .Net web API and
+                    React.js.
+                    <a
+                      target="_blank"
+                      href="https://github.com/ErnestJasa/youtuberiaiLT"
+                      class="underline"
+                      >Link to its Github.</a
+                    >
                   </p>
                 </div>
               </div>
