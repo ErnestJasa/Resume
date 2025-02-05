@@ -1,12 +1,9 @@
 .idea
 .vscode
 node_modules
-<<<<<<< Updated upstream
 package.json
 package-lock.json
 input.css
-=======
 package-lock.json
 package.json
 input.css
->>>>>>> Stashed changes
